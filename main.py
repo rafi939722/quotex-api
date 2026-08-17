@@ -22,8 +22,8 @@ def on_pin_code() -> str:
     return input("Enter the 2FA code sent to your email: ")
 
 client = Quotex(
-    email=vipravith@gmail.com,
-    password=@vipravith@12,
+    email="vipravith@gmail.com",
+    password="@vipravitha12",
     headless=True,
     on_pin_code=on_pin_code
 )
